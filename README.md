@@ -8,11 +8,11 @@ Linear Network Model
 \tau_s \dfrac{du_i}{dt} = -u_i + \sum^N_{j = 1}T_{ij}v_j + h_i \space (1)
 ```
 ```math
-v_i \approx g_iu_i + v^p_i
+v_i \approx g_iu_i + v^p_i \space (2)
 ```
 Readout Network
 ```math
-\tau_r \dfrac{dr_m}{dt} = -r_m + \sum^N_{j = 1}C_{mj}v_j + b_m \space (1)
+\tau_r \dfrac{dr_m}{dt} = -r_m + \sum^N_{j = 1}C_{mj}v_j + b_m \space (3)
 ```
 
 
