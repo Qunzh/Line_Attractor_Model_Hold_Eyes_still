@@ -16,7 +16,7 @@ Readout Network
 ```
 
 
-### Explanation for the Model
-This is the linear neural network 
+### Explanation for the Models
+The memory of eye position is modeled by two network: the memory network and the readout network. The memory networks is based on Linear Network Model. The Linear Network Model is composed by two equations. Equation (1) describes the total synaptic current input $u_i$ which each neuron $i$ inside memory network receives from recurrent and feedforward connection. The recurrent connection is described by $\sum^N_{j = 1}T_{ij}v_j$, which sum up all the recurrent connection  which neuron $i$ receives from other neuron j inside memory work with synaptic connection $T_{ij}$. The feedforward connection is described by $h_i$ , which is the position of the head and is a constant term when the head position is still.
 
 ### Significance of Model
