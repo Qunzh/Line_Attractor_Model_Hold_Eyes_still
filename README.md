@@ -1,1 +1,1 @@
-# Line_Attractor_Model_Hold_Eyes_still
+# Line Attractor based on Linear Network Model
